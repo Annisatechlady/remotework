@@ -1,0 +1,128 @@
+* {
+    margin: 1;
+    padding: 1;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: white;
+    color: #333;
+    line-height: 1.6;
+}
+
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+   background: white;
+ }
+
+ .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #000;
+ }
+
+
+ .feature, .company {
+  text-decoration: underline;
+ }
+
+ .nav-menu {
+   display: flex;
+   list-style: none;
+   cursor: pointer;
+   gap: 2rem;
+ }
+ .nav-button {
+   display: flex;
+   gap: 1rem;
+ }
+ 
+ .nav-menu a {
+   text-decoration: none;
+   color: #333;
+   font-weight: 500;
+ }
+
+ .nav-buttons.btn {
+   text-decoration: none;
+   padding: 0.5rem 1rem;
+   border: 1px solid #000;
+   border-radius: 5px;
+   margin-left: 1rem;
+   color: #000;
+ }
+
+ .nav-buttons {
+  display: flex;
+  gap: 1rem;
+ }
+
+ .btn-login {
+   padding: 0.5rem 1rem;
+   border: none;
+    background: transparent;
+    color: #333;
+    cursor: pointer;
+    font-size: 0.9rem;
+ }
+
+ .btn-register {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.9rem;
+  border-radius: 5px;
+ }
+
+ .btn-register:hover {
+  background-color: #555;
+ }
+
+ .hero-text h1 {
+   font-size: 2.5rem;
+   font-weight: bolder;
+   margin-bottom: 1rem;
+ }
+
+ .hero-text p {
+   font-size: 2rem;
+   margin-bottom: 1.5rem;
+ }
+
+ .cta-button {
+   display: inline-block;
+   padding: 0.8rem;
+   background: #000;
+   color: #fff;
+   text-decoration: none;
+   border-radius: 5px;
+ }
+ .hero-image {
+   flex: 1;
+   display: flex;
+   justify-content: flex-end;
+ }
+
+ .hero-image img {
+   max-width: 50%;
+   height: auto;
+ }
+
+ .clients {
+   display: flex;
+   justify-content: last baseline;
+   align-items: center;
+   gap: 2rem 1rem;
+   background: #fff;
+ }
+
+ .clients img {
+   max-height: 40px;
+   opacity: 0.8;
+ }
